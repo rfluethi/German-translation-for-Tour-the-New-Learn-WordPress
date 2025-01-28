@@ -6,9 +6,9 @@ This repository hosts the German translation of the "Tour the New Learn WordPres
 
 - [German Translation of 'Tour the New Learn WordPress'](#german-translation-of-Tour-the-new-learn-wordpress)(#german-translation-of-wordpress-essentials-domains-and-hosting-lesson)
   - [Original Resources](#original-resources)
-  - [Produced Resources](#produced-resources)
+  - [Documents](#documents)
+  - [Repository Structure](#repository-structure)
   - [Contributing](#contributing)
-  - [Downloadable Release Files](#downloadable-release-files)
   - [License](#license)
   - [Contact](#contact)
 
@@ -17,13 +17,11 @@ This repository hosts the German translation of the "Tour the New Learn WordPres
 This section lists the original English resources alongside their German adaptations, which serve as the foundation for the translation efforts.
 
 ### English Resources (original)
-- YouTube Video:[Tour the New Learn WordPress Experience](https://www.youtube.com/watch?v=Auo6xQpG-rU)
+- YouTube Video: [Tour the New Learn WordPress Experience](https://www.youtube.com/watch?v=Auo6xQpG-rU)
 - [Article from September 13, 2024](https://wordpress.org/news/2024/09/tour-the-new-learn-wordpress/) by [Lauren Stein](https://profiles.wordpress.org/laurlittle/) in [General](https://wordpress.org/news/category/general/) on [WordPress.org News](https://wordpress.org/news/).
 
-
 ### German Resources
-- Lesson Title: WordPress-Grundlagen: Domains und Hosting
-- GitHub Issue for the German Translation: [German translation for Lesson "WordPress essentials: Domains and hosting" · Issue #2955 · WordPress/Learn](https://github.com/WordPress/Learn/issues/2955)
+- GitHub Repository: [German Translation of 'Tour the New Learn WordPress'](https://github.com/rfluethi/German-translation-for-Tour-the-New-Learn-WordPress.git)
 
 ## Documents
 
@@ -38,7 +36,7 @@ The [Text Materials](docs/text-material.md) file contains the full transcript of
 The [subtitles directory](src/subtitles/) contains the subtitle files for the video.
 
 ### Video
-Current version of the video, which has been uploaded here and can be found in the [media/video/](media/video/) directory.
+The current version of the video, which has been uploaded here and can be found in the [media/video](media/video/) directory.
 
 ## Repository Structure
 
@@ -73,11 +71,11 @@ We welcome all forms of contribution! Whether you're interested in improving the
 2. **Clone Your Forked Repository:**
    - Replace `yourusername` with your GitHub username in the command below:
    ```bash
-   git clone https://github.com/yourusername/German-translation-for-Lesson-Introduction-to-WordPress.git
+   git clone https://github.com/yourusername/German-translation-for-Tour-the-New-Learn-WordPress.git
    ```
    - Navigate into the cloned directory:
    ```bash
-   cd German-translation-for-Lesson-Introduction-to-WordPress
+   cd German-translation-for-Tour-the-New-Learn-WordPress
    ```
 
 3. **Create a Branch:**
@@ -102,7 +100,7 @@ We welcome all forms of contribution! Whether you're interested in improving the
    ```
 
 7. **Submit a Pull Request:**
-   - Go to the original repository at `https://github.com/rfluethi/German-translation-for-Lesson-Introduction-to-WordPress`.
+   - Go to the original repository at `https://github.com/rfluethi/German-translation-for-Tour-the-New-Learn-WordPress.git`.
    - Click on the "Pull Requests" tab, then click the "New Pull Request" button.
    - Select your branch from the "compare" dropdown and submit your pull request for review.
 
