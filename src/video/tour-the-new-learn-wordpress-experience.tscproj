@@ -1,0 +1,634 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "allowSubFrameEditing" : false,
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "8.0",
+  "editRate" : 705600000,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Mac",
+    "version" : "2024.1.5"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "./tour-the-new-learn-wordpress-experience-EN.mp4",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20240914T172950",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 111400],
+          "type" : 0,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : "29999/1000",
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "tour-the-new-learn-wordpress-experience-EN.mp4;"
+        },
+        {
+          "range" : [0, 111478],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -14.3035219344039,
+          "peakLevel" : 1.0300384759903,
+          "metaData" : "tour-the-new-learn-wordpress-experience-EN.mp4;"
+        },
+        {
+          "range" : [0, 111450],
+          "type" : 2,
+          "editRate" : 1000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "integratedLUFS" : -14.0404678484864,
+          "peakLevel" : 1.0,
+          "metaData" : "tour-the-new-learn-wordpress-experience-EN.mp4;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20240915T123517.463020"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "./music.wav",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20240915T140010",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 801392],
+          "type" : 2,
+          "editRate" : 48000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 48000,
+          "bitDepth" : 24,
+          "numChannels" : 2,
+          "integratedLUFS" : -23.889453043931,
+          "peakLevel" : 0.191188678145409,
+          "metaData" : "music.wav;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20240915T140052.697821"
+      }
+    },
+    {
+      "id" : 3,
+      "src" : "./video-audio.flac",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20240915T145616",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 4915200],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 1,
+          "integratedLUFS" : -12.3014657817422,
+          "peakLevel" : 0.891265869140625,
+          "metaData" : "video-audio.flac;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20240915T145801.102144"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 4,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 5,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 6,
+                          "_type" : "VMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "tour-the-new-learn-wordpress-experience-EN"
+                          },
+                          "parameters" : {
+                            "geometryCrop0" : 0.0,
+                            "geometryCrop1" : 0.0,
+                            "geometryCrop2" : 0.0,
+                            "geometryCrop3" : 0.0
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 78603840000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 78603840000,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 7,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 1,
+                          "attributes" : {
+                            "ident" : "",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 78603840000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 78603840000,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 0,
+                    "duration" : 78603840000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 78603840000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "audiateLinkedSession" : "",
+                      "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                      "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                      "default-scale" : "1",
+                      "effectApplied" : "none"
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 8,
+                    "_type" : "VMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "tour-the-new-learn-wordpress-experience-EN"
+                    },
+                    "parameters" : {
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 78603840000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 78603840000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "audiateLinkedSession" : "",
+                      "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                      "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                      "effectApplied" : "none",
+                      "lockAspectRatio" : { "type": "bool", "value" : true}
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                  {
+                    "id" : 9,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "music",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true,
+                      "sourceFileOffset" : 0
+                    },
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "endTime" : 0,
+                            "time" : 0,
+                            "value" : 0.0468268143503289,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 77780640000,
+                            "time" : 77780640000,
+                            "value" : 0.0472035690467117,
+                            "duration" : 0
+                          },
+                          {
+                            "endTime" : 78307412428,
+                            "time" : 78307412428,
+                            "value" : 0.0,
+                            "duration" : 0
+                          }
+                        ]
+                      },
+                      "smoothCursorAcrossEditDuration" : 0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 10,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 11,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 11760000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 12,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 23520000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 13,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 35280000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 14,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 47040000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 15,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 58800000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 16,
+                          "_type" : "AMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Musical",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 70560000000,
+                          "duration" : 11760000000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 11760000000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "audiateLinkedSession" : "",
+                            "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                            "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 78603840000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 78603840000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "audiateLinkedSession" : "",
+                      "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                      "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                  {
+                    "id" : 17,
+                    "_type" : "AMFile",
+                    "src" : 3,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "video-audio",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true,
+                      "sourceFileOffset" : 0
+                    },
+                      "channelNumber" : "0",
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 78627360000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 78627360000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "audiateLinkedSession" : "",
+                      "clipSpeedAttribute" : { "type": "bool", "value" : false},
+                      "colorAttribute" : { "type": "color", "value" : [ 0, 0, 0, 0]},
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "Audio-English",
+        "audioMuted" : true,
+        "videoHidden" : true,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "True",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "Video",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "Music",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : true,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "Audio",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 32,
+      "backgroundColor" : [ 0, 0, 0, 204],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "de",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "ProjectThumbnail" : "iVBORw0KGgoAAAANSUhEUgAAAoAAAAFoCAYAAADHMkpRAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAACgKADAAQAAAABAAABaAAAAACeojBPAAASgUlEQVR4Ae3WQREAIRADweMcIgXjWIAqbEyvg3T2kTHXPp8jQIAAAQIECBDICPyZpIISIECAAAECBAg8AQPQIxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIGIB+gAABAgQIECAQEzAAY4WLS4AAAQIECBAwAP0AAQIECBAgQCAmYADGCheXAAECBAgQIGAA+gECBAgQIECAQEzAAIwVLi4BAgQIECBAwAD0AwQIECBAgACBmIABGCtcXAIECBAgQICAAegHCBAgQIAAAQIxAQMwVri4BAgQIECAAAED0A8QIECAAAECBGICBmCscHEJECBAgAABAgagHyBAgAABAgQIxAQMwFjh4hIgQIAAAQIEDEA/QIAAAQIECBCICRiAscLFJUCAAAECBAgYgH6AAAECBAgQIBATMABjhYtLgAABAgQIEDAA/QABAgQIECBAICZgAMYKF5cAAQIECBAgYAD6AQIECBAgQIBATMAAjBUuLgECBAgQIEDAAPQDBAgQIECAAIGYgAEYK1xcAgQIECBAgIAB6AcIECBAgAABAjEBAzBWuLgECBAgQIAAAQPQDxAgQIAAAQIEYgIGYKxwcQkQIECAAAECBqAfIECAAAECBAjEBAzAWOHiEiBAgAABAgQMQD9AgAABAgQIEIgJGICxwsUlQIAAAQIECBiAfoAAAQIECBAgEBMwAGOFi0uAAAECBAgQMAD9AAECBAgQIEAgJmAAxgoXlwABAgQIECBgAPoBAgQIECBAgEBMwACMFS4uAQIECBAgQMAA9AMECBAgQIAAgZiAARgrXFwCBAgQIECAgAHoBwgQIECAAAECMQEDMFa4uAQIECBAgAABA9APECBAgAABAgRiAgZgrHBxCRAgQIAAAQIGoB8gQIAAAQIECMQEDMBY4eISIECAAAECBAxAP0CAAAECBAgQiAkYgLHCxSVAgAABAgQIXJnNBX+KVGehAAAAAElFTkSuQmCC",
+    "RulerGuidesX" : [],
+    "RulerGuidesY" : [],
+    "RulerShowing" : { "type": "bool", "value" : false},
+    "activeThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+    "autoSavePath" : "/Users/rfluethi/Library/Application Support/TechSmith/Camtasia 2024/AutoSave/4A080E58-D928-45DA-9A74-7E71B9471C81-2288-0000002B0B7B9CD9.tscproj",
+    "firstMedia" : { "type": "bool", "value" : true},
+    "hasNotifiedAboutHFRMedia" : { "type": "bool", "value" : false},
+    "projectDuration" : "01:51"
+  }
+}
